@@ -4,14 +4,13 @@ import java.util.ArrayList;
 
 /**
  * @author Calvin
- * @Description:输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字，
- * 例如，如果输入如下4 X 4矩阵：
+ * @Description:输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字， 例如，如果输入如下4 X 4矩阵：
  * 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
  * 则依次打印出数字1,2,3,4,8,12,16,15,14,13,9,5,6,7,11,10.
  */
 public class Main {
     public static void main(String[] args) {
-        int[][] matrix = new int[][]{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}, {13, 14, 15, 16}};
+        int[][] matrix = new int[][]{{1}, {2}, {3}, {4}, {5}};
         System.out.println(printMatrix(matrix));
     }
 
@@ -41,17 +40,16 @@ public class Main {
             printMatrixHelp(matrix, startRow + 1, startCol + 1, endRow - 1, endCol - 1, result);
         } else if (startRow == endRow && startCol < endCol) {
             for (int i = startCol; i <= endCol; i++) {
-                result.add(matrix[endRow][i]);
+                result.add(matrix[startRow][i]);
             }
         } else if (startCol == endCol && startRow < endRow) {
-            for (int i = startRow; i <= endCol; i++) {
-                result.add(matrix[startCol][i]);
+            for (int i = startRow; i <= endRow; i++) {
+                result.add(matrix[i][endCol]);
             }
         } else if (startRow == endRow && startCol == endCol) {
             result.add(matrix[startRow][startCol]);
         } else {
             return;
         }
-
     }
 }
