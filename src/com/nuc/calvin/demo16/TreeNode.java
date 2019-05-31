@@ -5,7 +5,7 @@ package com.nuc.calvin.demo16;
  * @Description:
  */
 public class TreeNode {
-    int val = 0;
+    int val;
     TreeNode left = null;
     TreeNode right = null;
 
