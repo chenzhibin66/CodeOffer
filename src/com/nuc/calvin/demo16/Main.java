@@ -3,6 +3,7 @@ package com.nuc.calvin.demo16;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * @author Calvin
@@ -14,15 +15,16 @@ public class Main {
         if (root == null) {
             return list;
         }
-        Deque<TreeNode> deque = new LinkedList<>();
-        while (!deque.isEmpty()) {
-            TreeNode t = deque.pop();
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            TreeNode t = queue.poll();
             list.add(t.val);
             if (t.left != null) {
-                deque.add(t.left);
+                queue.add(t.left);
             }
             if (t.right != null) {
-                deque.add(t.right);
+                queue.add(t.right);
             }
         }
         return list;
