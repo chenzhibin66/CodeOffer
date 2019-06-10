@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e937cec-0129-4243-9a55-0df3f8eb8c4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/nuc/calvin/demo21/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeOffer/com/nuc/calvin/demo20/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodeOffer/com/nuc/calvin/demo20/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nuc/calvin/demo20/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nuc/calvin/demo20/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/nuc/calvin/demo20/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="1155">
               <caret line="35" column="19" selection-start-line="19" selection-start-column="8" selection-end-line="35" selection-end-column="19" />
             </state>
           </provider>
@@ -94,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/nuc/calvin/demo21/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="66">
+              <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -251,8 +248,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -395,24 +392,25 @@
       <workItem from="1559875155848" duration="1840000" />
       <workItem from="1559877022086" duration="3000" />
       <workItem from="1559998878559" duration="1555000" />
-      <workItem from="1560083094552" duration="1512000" />
+      <workItem from="1560083094552" duration="1871000" />
+      <workItem from="1560152516396" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28935000" />
+    <option name="totallyTimeSpent" value="29326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27546915" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27949062" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26203966" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26203966" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -420,7 +418,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36260623" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36260623" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="13" />
@@ -630,6 +628,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/calvin/demo20/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="35" column="19" selection-start-line="19" selection-start-column="8" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nuc/calvin/demo12/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -647,17 +652,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/calvin/demo20/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="35" column="19" selection-start-line="19" selection-start-column="8" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nuc/calvin/demo21/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
